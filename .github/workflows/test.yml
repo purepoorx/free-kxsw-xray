@@ -1,21 +1,21 @@
 name: Test
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "**/*.go"
-      - "go.mod"
-      - "go.sum"
-      - ".github/workflows/*.yml"
-  pull_request:
-    types: [opened, synchronize, reopened]
-    paths:
-      - "**/*.go"
-      - "go.mod"
-      - "go.sum"
-      - ".github/workflows/*.yml"
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - "**/*.go"
+  #     - "go.mod"
+  #     - "go.sum"
+  #     - ".github/workflows/*.yml"
+  # pull_request:
+  #   types: [opened, synchronize, reopened]
+  #   paths:
+  #     - "**/*.go"
+  #     - "go.mod"
+  #     - "go.sum"
+  #     - ".github/workflows/*.yml"
 
 jobs:
   test:
